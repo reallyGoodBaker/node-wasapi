@@ -1,0 +1,17 @@
+{
+  "name": "wasapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "~1.5.0",
+    "node-addon-api": "^7.0.0"
+  },
+  "gypfile": true
+}
