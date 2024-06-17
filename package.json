@@ -2,9 +2,10 @@
   "name": "wasapi",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "build": "node-gyp rebuild"
+    "build": "node-gyp rebuild",
+    "test": "npm run build && node test/main"
   },
   "keywords": [],
   "author": "",
